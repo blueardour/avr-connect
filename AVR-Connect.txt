@@ -1,0 +1,29 @@
+D1-		<--->  PB0
+D1+		<--->  PB1
+USB-ID<--->  PB2
+MOSI	<--->  PB3
+MISO	<--->  PB4
+SCK		<--->  PB5
+12M-I	<--->  PB6
+12M-O	<--->  PB7
+
+TXD		<--->  PD0
+RXD		<--->  PD1
+USB-ID<--->  PD2
+ADR3	<--->  PD3	
+Motor	<--->  PD4
+BELL	<--->  PD5
+LED		<--->  PD6
+RESET	<--->  PD7
+
+ADC0(PC0)  <---> SAMP1  -->VCC
+ADC1(PC1)  <---> SAMP2  -->tVCC
+ADC2(PC2)  <---> SAMP3  -->VP(tPOut)
+ADC3(PC3)  <---> SAMP4  -->VPR(Pout)
+ADC4(SDA)  <---> tMISO
+ADC5(SCL)  <---> SCK
+ADC6       <---> GND
+ADC7       <---> GND
+
+REST(PC6)  <---> REST
+AREF       <---> AVCC
